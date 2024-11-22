@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Meetups = ({searchQuery}) => {
 
-    const {data, loading, error} = useFetch(`http://localhost:3000/allMeetups`)
+    const {data, loading, error} = useFetch(`https://bi-assignment1-backend.vercel.app/allMeetups`)
 
     const [filter, setFilter] = useState('');
     

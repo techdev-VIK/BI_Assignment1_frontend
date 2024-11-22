@@ -6,7 +6,7 @@ export default function DetailsPage(){
 
     const detailId = useParams();
 
-    const {data, loading, error} = useFetch(`http://localhost:3000/allMeetups`)
+    const {data, loading, error} = useFetch(`https://bi-assignment1-backend.vercel.app/allMeetups`)
 
     
   if (error) return <p>Error loading the event details.</p>;

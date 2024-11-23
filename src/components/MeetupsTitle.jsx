@@ -23,9 +23,9 @@ const MeetupsTitle = ({title}) => {
                     <option value="Both">Both</option>
                 </select>
             </div>
-            <div className="row">
+            <div className="row justify-content-center">
             {data.map((card) => (
-                <div key={card._id} className="col-md-4">
+                <div key={card._id} className="col-md-4 container">
                     <div className="mt-3">
                     <img src={card.imageUrl} alt="Tech Conference Image" className="card-img-top img-fluid rounded ms-2" />
                     

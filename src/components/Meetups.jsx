@@ -38,7 +38,7 @@ const Meetups = ({searchQuery}) => {
             </div>
             <div className="row">
             {displayedData.map((card) => (
-                <div key={card._id} className="col-md-4 container mb-5">
+                <div key={card._id} className="col-md-4 mb-5">
                     <div className="mt-3">
                     <div className="image-container">
                     <Link to={`/pages/details/${card.title}`}><img src={card.imageUrl} alt={card.title} className="card-img-top img-fluid rounded ms-2" /></Link>

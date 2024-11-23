@@ -36,7 +36,7 @@ const Meetups = ({searchQuery}) => {
                     <option value="Both">Both</option>
                 </select>
             </div>
-            <div className="row justify-content-center">
+            <div className="row d-flex justify-content-start">
             {displayedData.map((card) => (
                 <div key={card._id} className="col-md-4 container mb-5">
                     <div className="mt-3">

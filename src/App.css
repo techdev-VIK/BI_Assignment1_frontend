@@ -15,9 +15,6 @@ body {
 /* Image container with relative positioning */
 .image-container {
   position: relative;
-  display: inline-block;
-  width: 100%;
-  height: auto;
 }
 
 /* Status badge on top of the image */
